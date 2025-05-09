@@ -1,0 +1,17 @@
+import turtle
+#Define a function named 'square' to draw a square
+def square():    
+#Loop 4 times to draw a square
+    for a in range(4): 
+#Move the turtle forward by 150 
+        tom.forward(150) 
+#Turn the turtle right by 90 
+        tom.right(90)
+#Close the window when the user clicks on it
+    wn.exitonclick()
+#Create a window for drawing
+wn = turtle.Screen()
+#Create a turtle 
+tom = turtle.Turtle()
+#Call the square function to draw the square
+square()
