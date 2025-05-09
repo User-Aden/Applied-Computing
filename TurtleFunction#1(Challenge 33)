@@ -1,0 +1,13 @@
+import turtle           
+#Create a window for drawing
+wn = turtle.Screen()    
+#Create a turtle
+tom = turtle.Turtle()   
+#Repeat the commands 4 times 
+for a in range(4):      
+#Move the turtle forward by 150 
+    tom.forward(150)    
+#Turn the turtle right by 90 
+    tom.right(90)       
+#Keep the window open
+wn.exitonclick()        
