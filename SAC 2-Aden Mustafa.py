@@ -6,8 +6,6 @@ time.sleep(0.25)
 for n in range(1, noStudents + 1):
     while True:
         StuName = input(f'What is the name of student {n}?: ').strip().capitalize()
-
-
 time.sleep(0.25)
 for d in range(1, noPeriods + 1):
     while True:
