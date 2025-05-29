@@ -1,0 +1,18 @@
+Begin:
+Ask the user for how many students are in their class.
+Ask the user for how many periods of that class are held in the week.
+
+Repeat for each student:
+Ask for the student's name.
+Start a counter for each student to count the amount of ‘P’s
+
+Repeat for each period:
+Ask if the student was in each period, with P meaning present and A meaning absent.
+If the answer is not P or A, reask the question of: if that student was in that period
+If the answer is = P, add one to the counter.
+
+Calculate the percentage of the students attendance by dividing the number of ‘P’s by the number of periods, the times by 100 to make it a percentage. (e.g: student is present in 3 periods out of 5. The equation would be (3 / 5) x 100)
+Display each of the student's attendance rate next to their name, as well as the amount of periods attended. (E.g: Aden: (75%) attendance, attended 3 out of 4 periods.
+If students attendance is below x amount (E.g: 75%), print: LOW ATTENDANCE WARNING.
+Open the txt.file StuAttendance.txt, and print all of the information onto it. 
+End.
